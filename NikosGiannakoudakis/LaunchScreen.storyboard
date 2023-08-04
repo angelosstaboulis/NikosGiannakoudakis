@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cPM-6s-FOI">
+                                <rect key="frame" x="-20" y="106" width="464" height="811"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                        <rect key="frame" x="20" y="740" width="414" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nikos  Giannakoudakis" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                                        <rect key="frame" x="20" y="172" width="414" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43.5" id="dYm-pF-37q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nikos" translatesAutoresizingMaskIntoConstraints="NO" id="Sob-Xj-BHR">
+                                        <rect key="frame" x="107" y="20" width="240" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="D7J-Z6-QPO"/>
+                                            <constraint firstAttribute="width" constant="240" id="nVN-xK-nPR"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (C) 2023  Angelos Staboulis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zwt-0t-cm8">
+                                        <rect key="frame" x="20" y="734" width="424" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="KyI-fC-R2u"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Zwt-0t-cm8" firstAttribute="baseline" secondItem="obG-Y5-kRd" secondAttribute="firstBaseline" id="25q-mJ-N30"/>
+                                    <constraint firstItem="Zwt-0t-cm8" firstAttribute="leading" secondItem="obG-Y5-kRd" secondAttribute="leading" id="2XR-EG-h9f"/>
+                                    <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="Sob-Xj-BHR" secondAttribute="bottom" constant="24" id="A15-j7-nha"/>
+                                    <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="obG-Y5-kRd" secondAttribute="leading" id="Agj-rY-hcl"/>
+                                    <constraint firstItem="GJd-Yh-RWb" firstAttribute="trailing" secondItem="obG-Y5-kRd" secondAttribute="trailing" id="Auy-P7-4FA"/>
+                                    <constraint firstItem="Sob-Xj-BHR" firstAttribute="top" secondItem="cPM-6s-FOI" secondAttribute="top" constant="20" id="HEI-a5-7s2"/>
+                                    <constraint firstAttribute="bottom" secondItem="Zwt-0t-cm8" secondAttribute="bottom" constant="50" id="KWl-B0-Ujc"/>
+                                    <constraint firstAttribute="trailing" secondItem="GJd-Yh-RWb" secondAttribute="trailing" constant="30" id="NxQ-B4-0Sp"/>
+                                    <constraint firstItem="Sob-Xj-BHR" firstAttribute="centerX" secondItem="GJd-Yh-RWb" secondAttribute="centerX" id="jjo-6x-9s6"/>
+                                    <constraint firstItem="Zwt-0t-cm8" firstAttribute="centerX" secondItem="cPM-6s-FOI" secondAttribute="centerX" id="ofX-19-AIO"/>
+                                    <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="cPM-6s-FOI" secondAttribute="leading" constant="20" id="yxa-8h-qoD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="cPM-6s-FOI" secondAttribute="bottom" constant="-55" id="Dbg-44-ACd"/>
+                            <constraint firstItem="cPM-6s-FOI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-40" id="Y1p-VE-oMg"/>
+                            <constraint firstItem="cPM-6s-FOI" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="62" id="cmy-Ue-7ox"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cPM-6s-FOI" secondAttribute="trailing" constant="-50" id="osc-mi-cOS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nikos" width="318" height="320"/>
+    </resources>
+</document>
